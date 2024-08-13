@@ -1,0 +1,78 @@
+@media screen and (max-width:576px) {
+    .link-items {
+        display: none;
+    }
+
+    .display-none {
+        display: block;
+    }
+
+    .banner {
+        flex-direction: column;
+
+    }
+
+    .btn-class {
+        gap: 10px;
+        justify-content: space-between;
+    }
+
+    .btn {
+        padding: 15px 25px;
+        font-size: 1rem;
+
+
+    }
+
+    .video_tag {
+        width: 180px;
+        height: 80px;
+        margin-top: -350px;
+        margin-left: -20px;
+    }
+
+    .video_tag-2 {
+
+        width: 180px;
+        height: 100px;
+        /* margin-top: -520px;
+        margin-left: 150px; */
+        right: -40px;
+
+    }
+
+    .video_tag-2 h2 {
+        font-size: 25px;
+    }
+
+    .changeHabit-items {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    .RunExtraMile {
+        grid-template-columns: 1fr;
+    }
+
+    .content-div {
+        padding-left: 5px
+    }
+
+    .img-div {
+        width: 90%;
+    }
+    .BMI-Calculator{
+        text-align: center;
+    }
+    .BMI-Calculator-Inner-Wrapper{
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+    .form-control{
+        width: 100%;
+    }
+    .team-items{
+        grid-template-columns: 1fr;
+    }
+}
