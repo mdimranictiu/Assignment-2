@@ -104,13 +104,63 @@
         object-fit: none;
         object-position: 66% 30%;
     }
-    .Calculate-BMI-title{
+
+    .Calculate-BMI-title {
         font-size: 1rem;
     }
+
     .footer-title {
         font-size: 1.5rem;
     }
-    .banner-title{
+
+    .banner-title {
         font-size: 36px;
+    }
+
+    .affiliate-section {
+        grid-template-columns: 1fr;
+    }
+
+    .img-control {
+        width: 100%;
+    }
+
+    .img-aff {
+        top: 250px;
+        right: -40px;
+        height: 200px;
+    }
+
+    .btn-aff {
+        width: 100%;
+    }
+
+    .affiliate-title {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .affiliate-content-section {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .affiliate-section {
+        display: grid;
+        gap: 50px;
+        padding: 0px;
+        margin: 100px auto;
+
+
+    }
+
+    #affiliate7 {
+        top: 300px;
+        left: 20px;
+    }
+
+    .footer-content-section {
+        padding-bottom: 20px;
     }
 }
