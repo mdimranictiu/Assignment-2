@@ -27,7 +27,7 @@
     .video_tag {
         width: 180px;
         height: 80px;
-        margin-top: -350px;
+        margin-top: -240px;
         margin-left: -20px;
     }
 
@@ -37,7 +37,7 @@
         height: 100px;
         /* margin-top: -520px;
         margin-left: 150px; */
-        right: -40px;
+        right: -30px;
 
     }
 
@@ -62,17 +62,55 @@
     .img-div {
         width: 90%;
     }
-    .BMI-Calculator{
+
+    .BMI-Calculator {
         text-align: center;
+        font-size: 2rem;
     }
-    .BMI-Calculator-Inner-Wrapper{
+
+    .BMI-Calculator-Inner-Wrapper {
         grid-template-columns: 1fr;
         gap: 50px;
     }
-    .form-control{
+
+    .form-control {
         width: 100%;
     }
-    .team-items{
+
+    .team-items {
         grid-template-columns: 1fr;
+    }
+
+    .footer-content-section {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .font-32,
+    .content-div h2 {
+        font-size: 2rem;
+    }
+
+    .BMI-Calculator .BMI-title {
+        font-size: 2rem;
+        font-weight: 800;
+    }
+
+    .btn-id {
+        width: 100%;
+    }
+
+    .img-div img {
+        object-fit: none;
+        object-position: 66% 30%;
+    }
+    .Calculate-BMI-title{
+        font-size: 1rem;
+    }
+    .footer-title {
+        font-size: 1.5rem;
+    }
+    .banner-title{
+        font-size: 36px;
     }
 }
